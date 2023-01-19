@@ -2,20 +2,21 @@
 int rev(int);
 int main()
 {
-   int n,sq,i;
-   scanf("%d",&n);
-   int s=rev(n);
-   sq=n*n;
-   int sq1=s*s;
-   int a=rev(sq1);
-   if(sq==a)
-   {
-       printf("True");
-   }
-   else
-   {
-       printf("False");
-   }
+    int n,sq,i,s;
+    scanf("%d",&n);
+    s=rev(n);
+    sq=n*n;
+    int sq1=s*s;
+    int a=rev(sq1);
+    if(sq==a)
+    {
+        printf("True");
+    }
+    else
+    {
+        printf("False");
+    }
+    
 }
 int rev(int n)
 {
