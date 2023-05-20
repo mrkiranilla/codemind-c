@@ -12,9 +12,9 @@ int main()
         }
         else if(r==2)
         {
-           b++; 
+            b++;
         }
-        else if(r==3)
+        else if (r==3)
         {
             c++;
         }
