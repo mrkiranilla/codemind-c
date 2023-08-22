@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    int n,i,r,rev=0;
+    int n,rev=0,r,t;
     scanf("%d",&n);
-    i=n;
+    t=n;
     while(n!=0)
     {
         r=n%10;
